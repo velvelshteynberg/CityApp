@@ -8,4 +8,8 @@ class CitiesController < ApplicationController
         @city = City.find(params[:id])
     end 
 
+    def new
+        
+    end 
+
 end

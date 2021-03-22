@@ -1,0 +1,13 @@
+<h1> Add a city </h1>
+
+<%= form_tag "/city" do %>
+
+    <%= label_tag :name %>
+    <%= text_field_tag :name %>
+
+    <%= label_tag :population %>
+    <%= text_field_tag :population %>
+
+    <%= submit_tag "save" %>
+
+<% end %>
